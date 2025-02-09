@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 
 
-        **2️⃣ Step 2: Create Configuration File**
+      **2️⃣ Step 2: Create Configuration File**
 
 
 
