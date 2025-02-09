@@ -79,11 +79,11 @@ import google.generativeai as genai
 # Configure Gemini API
 
 
-
+**
 def configure_gemini():
     API_KEY = "your-api-key-here"
     genai.configure(api_key=API_KEY)
-🛠 Replace "your-api-key-here" with your actual Google Gemini API key.
+🛠 Replace "your-api-key-here" with your actual Google Gemini API key.******
 
 
 
