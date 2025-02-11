@@ -1,4 +1,5 @@
-**Agentic AI Learning with Python**
+**Number Guessing Game**
+
 
 
 
@@ -10,178 +11,201 @@
 
 
 
-Welcome to the Agentic AI Learning with Python repository! This repository is dedicated to learning and implementing AI-related concepts using Python. It includes various projects, exercises, and documentation to help you understand and build AI-driven applications.
+This is a simple Python program that generates a random number between 1 and 100 and allows the user to guess the number within 3 attempts. The program provides hints if the guessed number is too high or too low.
 
 
 
 
 
-**Repository Structure**
 
+**How It Works**
 
 
 
-              📂 Agentic_AI_Learning
-              │
-              ├── 📂 projects/               # Contains AI-related projects and implementations
-              │   ├── project_1/            # Example: Gemini AI Integration
-              │   ├── project_2/            # Example: NLP-based Chatbot
-              │   ├── ...                   # More AI-related projects
-              │
-              ├── 📂 scripts/                # Python scripts for AI concepts and utilities
-              │   ├── gemini_utils.py       # Utility functions for Gemini AI
-              │   ├── config.py             # Configuration settings for API keys and environment
-              │   ├── ...                   # Other AI-related scripts
-              │
-              ├── 📂 datasets/               # Sample datasets for training AI models
-              │   ├── sample_data.csv       # Example dataset
-              │
-              ├── 📂 docs/                   # Documentation related to AI concepts and implementations
-              │
-              ├── main.py                    # Entry point script for AI implementations
-              ├── requirements.txt            # Required Python dependencies
-              ├── README.md                   # This documentation file
-              └── .gitignore                  # Files to ignore in version control
 
 
+The program generates a random number using Python's random.randint(1, 100) function.
 
-              
 
-**Getting Started**
 
 
 
 
 
+The user is prompted to guess the number.
 
-**Prerequisites**
 
 
 
 
-Ensure you have the following installed on your system:
 
+If the guess is higher than the generated number, the program suggests guessing a lower number.
 
 
 
-Python 3.8 or later
 
 
 
+If the guess is lower, the program suggests guessing a higher number.
 
 
-pip (Python package manager)
 
 
 
 
+The user has a maximum of 3 attempts to guess correctly.
 
-Installation Steps
 
 
 
 
+If the user guesses correctly within the given attempts, they win.
 
-Clone the Repository
 
 
 
 
 
-git clone https://github.com/yourusername/Agentic_AI_Learning.git
+If the user fails to guess correctly within 3 attempts, the program reveals the correct number.
 
 
 
 
+How to Run the Program
 
-cd Agentic_AI_Learning
 
 
 
+Ensure you have Python installed on your system.
 
 
 
-Create a Virtual Environment (Recommended)
 
+Copy the script into a .py file, for example, guess_game.py.
 
 
 
 
-                python -m venv venv
-                source venv/bin/activate  # On macOS/Linux
-                venv\Scripts\activate     # On Windows
+Open a terminal or command prompt and navigate to the file's location.
 
 
-Install Dependencies
 
 
-            pip install -r requirements.txt
 
+Run the script using the command:
 
 
-            
 
-Run the Main Script
 
-              python main.py
+    python guess_game.py
+
+
+
+    
+
+Follow the on-screen instructions to play the game.
+
+
+
+
+
+
+
+**Example Output**
+
+    Guess the number between 1 and 100! (Max attempts: 3)
+    Enter your guess: 50
+    Lower number please
+    Enter your guess: 25
+    Higher number please
+    Enter your guess: 30
+    Congratulations! You guessed the number 30 correctly in 3 attempts.
+
+**OR**
+
+    Guess the number between 1 and 100! (Max attempts: 3)
+    Enter your guess: 80
+    Lower number please
+    Enter your guess: 40
+    Higher number please
+    Enter your guess: 50
+    Sorry! You've used all 3 attempts. The correct number was 55.
+
+
+
+
+
+Requirements
+
+
+
+
+
+Python 3.x
+
+
+
 
 Features
 
 
 
-AI Model Implementations: Hands-on AI projects with practical applications.
+
+
+Random number generation
 
 
 
 
 
-Agentic AI Concepts: Learn about AI agents, LLMs, and their integrations.
+Input validation (ensuring user enters an integer)
 
 
 
 
 
-Modular Codebase: Organized structure for easy navigation and contribution.
-
-
-
-
-
-
-
-
-
-
-
-**Contributions**
-
-
-
-
-
-Contributions are welcome! Feel free to open issues, submit pull requests, or suggest improvements.
+Hints to guide the user
 
 
 
 
 
 
-
-**📞 Contact**
-
-
-
-
-For any questions or collaboration opportunities, reach out via WhatsApp or linkedIn.
+Limited attempts for an added challenge
 
 
 
 
-**WhatsApp: +92-3188361229, +92-3401304435**
+
+
+Possible Enhancements
 
 
 
 
-**LinkedIn: www.linkedin.com/in/muhammad-hamza-507761274**
 
+
+Allowing the user to choose difficulty levels (e.g., more attempts for easier mode)
+
+
+
+
+
+
+Adding a replay option
+
+
+
+
+
+
+Providing a scoring system based on attempts used
+
+
+
+
+
+
+
+Enjoy the game! 🎮
 
